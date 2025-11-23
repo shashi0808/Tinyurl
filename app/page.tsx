@@ -198,7 +198,7 @@ export default function Dashboard() {
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900 placeholder:text-gray-400"
                 />
                 <p className="text-sm text-gray-500 mt-1">
-                  Leave empty to auto-generate a code
+                  Leave empty to auto-generate a random code
                 </p>
               </div>
 
