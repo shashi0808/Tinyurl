@@ -1,8 +1,18 @@
-# TinyLink - URL Shortener
+# TinyLink - URL Shortener 🔗
+
+![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 A clean, modern URL shortener similar to bit.ly, built with Next.js 14, TypeScript, and Tailwind CSS.
 
-## Features
+## 🚀 Live Demo
+
+[View Live Application](#) <!-- Add your Vercel URL here -->
+
+## ✨ Features
 
 - **URL Shortening**: Convert long URLs into short, shareable links
 - **Custom Short Codes**: Choose your own custom codes (6-8 alphanumeric characters)
@@ -11,11 +21,14 @@ A clean, modern URL shortener similar to bit.ly, built with Next.js 14, TypeScri
 - **Link Management**: Easy dashboard to add, delete, and search links
 - **Responsive Design**: Works seamlessly on desktop and mobile devices
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - **Frontend**: Next.js 14 (App Router), TypeScript, Tailwind CSS
+- **Backend**: Next.js API Routes (Serverless Functions)
 - **Database**: PostgreSQL (Neon)
 - **Hosting**: Vercel
+- **Styling**: Tailwind CSS
+- **Validation**: Zod
 
 ## Getting Started
 
