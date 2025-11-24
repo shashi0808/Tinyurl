@@ -9,7 +9,7 @@ export default function NotFound() {
           Link Not Found
         </h2>
         <p className="text-gray-600 mb-8">
-          The short link you're looking for doesn't exist or has been deleted.
+          The short link you&apos;re looking for doesn&apos;t exist or has been deleted.
         </p>
         <Link
           href="/"

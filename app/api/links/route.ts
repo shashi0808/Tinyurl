@@ -88,9 +88,9 @@ export async function POST(request: NextRequest) {
 
       const link: Link = result.rows[0];
       return NextResponse.json(link, { status: 201 });
-    } catch (dbError: any) {
+    } catch (dbError: unknown) {
       // Check for unique constraint violation
-      if (dbError.code === '23505') {
+      if ((dbError as { code?: string }).code === '23505') {
         return NextResponse.json(
           { error: 'Code already exists' },
           { status: 409 }

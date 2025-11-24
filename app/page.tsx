@@ -35,7 +35,7 @@ export default function Dashboard() {
 
       const data = await response.json();
       setLinks(data);
-    } catch (err) {
+    } catch {
       setError('Failed to fetch links');
     } finally {
       setLoading(false);
@@ -73,7 +73,7 @@ export default function Dashboard() {
       setCustomCode('');
       setShowAddForm(false);
       fetchLinks();
-    } catch (err) {
+    } catch {
       setFormError('Failed to create link');
     } finally {
       setFormLoading(false);
@@ -93,7 +93,7 @@ export default function Dashboard() {
       } else {
         alert('Failed to delete link');
       }
-    } catch (err) {
+    } catch {
       alert('Failed to delete link');
     }
   };

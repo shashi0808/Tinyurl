@@ -18,6 +18,7 @@ export default function StatsPage() {
 
   useEffect(() => {
     fetchLinkStats();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [code]);
 
   const fetchLinkStats = async () => {
@@ -36,7 +37,7 @@ export default function StatsPage() {
 
       const data = await response.json();
       setLink(data);
-    } catch (err) {
+    } catch {
       setError('Failed to fetch link stats');
     } finally {
       setLoading(false);
@@ -64,7 +65,7 @@ export default function StatsPage() {
       } else {
         alert('Failed to delete link');
       }
-    } catch (err) {
+    } catch {
       alert('Failed to delete link');
     }
   };
